@@ -684,6 +684,12 @@ require('lazy').setup({
         -- ts_ls = {},
         --
 
+        bashls = {},
+        cssls = {},
+        elixirls = {},
+        erlangls = {},
+        gopls = {},
+        html = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
@@ -698,6 +704,8 @@ require('lazy').setup({
             },
           },
         },
+        ruby_ls = {},
+        tailwindcss = {},
       }
 
       -- Ensure the servers and tools above are installed
