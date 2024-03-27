@@ -267,6 +267,7 @@ require('lazy').setup({
   --        end,
   --    }
   --
+
   -- Here is a more advanced example where we pass configuration
   -- options to `gitsigns.nvim`.
   --
@@ -283,6 +284,9 @@ require('lazy').setup({
       },
     },
   },
+
+  -- A tmux integration for nvim featuring pane movement and resizing from within nvim
+  { 'aserowy/tmux.nvim', opts = {} },
 
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
