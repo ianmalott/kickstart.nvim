@@ -931,6 +931,9 @@ require('lazy').setup({
       -- Visualize and work with indent scope
       require('mini.indentscope').setup()
 
+      -- Minimal and fast autopairs
+      require('mini.pairs').setup()
+
       -- Add/delete/replace surroundings (brackets, quotes, etc.)
       --
       -- - saiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
