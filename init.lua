@@ -169,6 +169,10 @@ vim.o.confirm = true
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
+-- Open TODO topic heading
+-- Vim version: nnoremap <leader>th O<ESC>80i-<ESC>o<ESC>78i`<ESC>O
+vim.keymap.set('n', '<leader>th', 'O<ESC>80i-<ESC>o<ESC>78i`<ESC>O')
+
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
