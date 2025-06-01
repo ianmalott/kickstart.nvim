@@ -712,7 +712,7 @@ require('lazy').setup({
             },
           },
         },
-        ruby_ls = {},
+        ruby_lsp = {},
         tailwindcss = {},
       }
 
